@@ -93,6 +93,19 @@
         @apply text-secondaryColor py-3 xl:py-5 px-5 xl:px-10 flex items-center gap-2 justify-center fill-secondaryColor font-medium text-sm xl:text-base;
     }
 
+    .medicinetab{
+        @apply text-secondaryColor py-3 xl:py-5 px-5 xl:px-10 flex items-center gap-2 justify-center fill-secondaryColor font-medium text-sm xl:text-base;
+    }
+
+    .hospitaltab{
+        @apply text-secondaryColor py-3 xl:py-5 px-5 xl:px-10 flex items-center gap-2 justify-center fill-secondaryColor font-medium text-sm xl:text-base;
+    }
+
+    .ambulancetab{
+        @apply text-secondaryColor py-3 xl:py-5 px-5 xl:px-10 flex items-center gap-2 justify-center fill-secondaryColor font-medium text-sm xl:text-base;
+    }
+
+
     .tab-active{
         @apply bg-primaryColor fill-white text-white rounded-t;
     }
