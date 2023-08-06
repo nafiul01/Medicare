@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicare</title>
+    <link rel="shortcut icon" type="x-icon" href="img/site-icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+<body class="font-sans">
+    
+    <header class="bg-white shadow fixed top-0 left-0 right-0 z-50">
+        <div class="custom-container">
+          <div class="flex justify-between items-center h-20">
+
+            <!-- Logo --> 
+            <div class="flex-shrink-0 flex items-center">
+              <a href="index.html"><img class="h-10 w-auto" src="img/Logo.png" alt="Logo"></a>
+            </div>
+      
+            <!-- Menu -->
+            <div class="hidden md:block absolute top-16 right-0 md:static bg-white z-40" id="toggle-menu">
+              <nav class="main-menu">
+                <ul class="flex flex-col md:flex-row gap-8 items-center text-center text-sm md:text-[10px] lg:text-base py-7 md:py-3 px-5 md:px-0">
+
+                  <a class="menu-list" href="index.html">প্রথম পৃষ্ঠা</a>
+                  <a class="menu-list" href="about.html">আমাদের সম্পর্কে</a>
+                  <a class="menu-list" href="services.html">আমাদের সেবাসমূহ</a>
+                  <a class="menu-list" href="blog.html">পোস্ট</a>
+                  <a class="menu-list menu-list-active" href="contact.html">যোগাযোগ</a>
+
+                </ul>
+              </nav>
+            </div>
+
+            <!-- Search, User & Cart -->
+            <div class="flex items-center gap-2 md:hidden">
+              <div class="md:hidden flex items-center ml-4">
+                <button id="toggle-button" class="text-gray-600 hover:text-gray-900">
+                <i class="fas fa-bars"></i>
+                </button>
+              </div>
+            </div>
+        </div>
+    </header>
+    <div class="h-20"></div>
+
+
+    <!-- Hero Section -->
+    <section class="bg-[url('img/services-background.jpg')] bg-cover md:h-screen sm:max-h-[300px] xl:max-h-[250px] 2xl:max-h-[300px] font-SLNormal">
+      <div class="custom-container h-full flex flex-col  items-center">
+        
+        <div class="flex flex-col items-center sm:items-start justify-start py-10 sm:py-0 sm:justify-center gap-3 h-full">
+
+          <h1 class="text-[2rem] xl:text-[3rem] font-SLNormal max-w-xl text-center sm:text-left -ml-1 z-20 text-white">যোগাযোগ করুন</h1>
+        </div>
+
+        <div class="text-white flex flex-col md:flex-row gap-5 md:w-full font-Montserrat scale-50 md:scale-75 xl:scale-100 -mt-10 md:mt-0">
+
+          <a href="" class="flex items-center gap-3">
+            <div class="h-20 w-20 flex justify-center items-center">
+              <img src="img/android.svg" alt="">
+            </div>
+            <div class="w-[1px] h-16 bg-white mr-2"></div>
+            <div>
+              <span class="font-semibold">Available on the</span><br>
+              <span class="font-bold">PLAY STORE</span>
+            </div>
+          </a>
+
+          <a href="" class="flex items-center gap-3 mt-2">
+            <div class="h-20 w-20 flex justify-center items-center">
+              <img src="img/iphone.svg" alt="">
+            </div>  
+            <div class="w-[1px] h-16 bg-white mr-2"></div>          
+            <div>
+              <span class="font-semibold">Available on the</span><br>
+              <span class="font-bold">APPLE STORE</span>
+            </div>
+          </a>
+        </div>
+
+      </div>
+
+    </section>
+    <img src="img/about-banner-after.jpg" alt="">
+
+
+    <section class="custom-container pt-5 md:pt-20 pb-20 font-SLNormal text-center">
+      <p class="text-primaryColor">সংবাদবাহী</p>
+      <p class="text-secondaryColor text-3xl font-bold py-4">আমাদের সাথে যোগ দাও</p>
+      <p class="text-tColor2 leading-8 max-w-[550px] mx-auto"> ১০% কম খরচে যে কোনো ডায়াগনস্টিক সেন্টার, ক্লিনিক ও হাসপাতালের যাবতীয় ডায়াগনস্টিক প্যাথলজি পরীক্ষা করা ও হাসপাতালের যাবতীয় ডায়াগনস্টিক প্যাথলজি পরীক্ষা করা।</p>  
+    </section>
+
+
+    <section class="custom-container pt-5 md:pt-20 pb-20 font-SLNormal grid md:grid-cols-2 gap-10 md:gap-20">
+      <div>
+        <p class="text-primaryColor">যোগাযোগ করুন</p>
+        <p class="text-secondaryColor text-3xl font-bold py-4">আসুন একটি কথোপকথন শুরু করি</p>
+        <p class="text-tColor2 leading-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+
+        <form action="" class="mt-10">
+          <input class="border-2 p-5 w-full focus:outline-none" type="text" placeholder="পুরো নাম">
+          <input class="border-2 p-5 w-full focus:outline-none mt-3" type="text" placeholder="আপনার ইমেইল">
+          <input class="border-2 p-5 w-full focus:outline-none mt-3" type="text" placeholder="প্রশ্ন সম্পর্কিত">
+          <textarea class="border-2 p-5 w-full focus:outline-none mt-3" type="text" placeholder="বার্তা"></textarea>
+          <button class="primary-btn w-full mt-3">বার্তা পাঠান</button>
+        </form>
+      </div>
+
+      <div class="border-2 bg-backgroundColor flex flex-col justify-center items-center p-10">
+        <div class="grid gap-3 text-tColor2">
+          <p class="text-secondaryColor text-3xl font-bold py-4">আমাদের ঠিকানা</p>
+          <p>Call: +88012345667</p>
+          <p>Email: hello@gmail.com</p>
+          <p>Address: 0123 Some place</p>
+          <p>Bangladesh</p>
+        </div>
+      </div>
+    </section>
+
+
+<!-- Footer Section -->
+    <footer class="bg-slate-100 py-10">
+      <div class="custom-container ">
+        <div class="grid grid-cols-1 md:grid-cols-5 border-b pb-20 border-black">
+          <div class="col-span-2">
+            <img src="img/Logo-2.png" alt="">
+            <p class="text-xs text-tColor2 mt-3 leading-8 font-SLNormal"> ১০% কম খরচে যে কোনো ডায়াগনস্টিক সেন্টার,<br> ক্লিনিক ও হাসপাতালের যাবতীয় ডায়াগনস্টিক<br> প্যাথলজি পরীক্ষা করা।</p>
+          </div>
+
+          <div class="col-span-3 flex flex-col md:flex-row justify-between mt-10 md:mt-20 gap-10 md:gap-0">
+
+            <div class="font-SLNormal text-sm flex flex-col gap-3">
+              <p class="font-bold text-base">সমস্ত পৃষ্ঠা</p>
+              <a href="">প্রথম পৃষ্ঠা</a>
+              <a href="">আমাদের সম্পর্কে</a>
+              <a href="">আমাদের সেবাসমূহ</a>
+              <a href="">যোগাযোগ</a>
+            </div>
+
+            <div class="text-sm font-Montserrat flex flex-col gap-3">
+              <p class="font-bold text-base font-SLNormal">গুরুত্বপূর্ণ লিঙ্ক</p>
+              <a href="">Appointment</a>
+              <a href="">Doctors</a>
+              <a href="">Services</a>
+              <a href="">About Us</a>
+            </div>
+
+            <div class="font-Montserrat text-sm flex flex-col gap-3">
+              <p class="font-bold text-base font-SLNormal">যোগাযোগ করুন</p>
+              <p>Call: +88012345667</p>
+              <p>Email: hello@gmail.com</p>
+              <p>Address: 0123 Some place, <br>Bangladesh</p>
+            </div>
+
+          </div>
+        </div>
+        <div class="flex flex-col md:flex-row items-center justify-between pt-10 gap-10">
+          <p class="font-Montserrat">© 2023 All Rights Reserved by Code Studio</p>
+          <div class="flex items-center gap-5">
+            <a href=""><img src="img/linkedin.svg" alt=""></a>
+            <a href=""><img src="img/facebook-black.svg" alt=""></a>
+            <a href=""><img src="img/instagram-black.svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+<!-- Header Section Script -->
+  <script> 
+  // Menu toggle button 
+    const toggleButton = document.getElementById("toggle-button");
+    const toggleMenu = document.getElementById("toggle-menu");
+    var toggleCounter = 1;
+    toggleButton.onclick = function () {
+      toggleCounter++;
+      if(toggleCounter%2 == 0){
+        toggleMenu.classList.remove("hidden");
+        toggleMenu.classList.add("flex");
+      }
+      else{
+        toggleMenu.classList.remove("flex");
+        toggleMenu.classList.add("hidden");
+      }
+    }
+
+    // Sub menu items
+    if(screen.width < 768){
+    const subMenuButtons = document.querySelectorAll('.subMenu-button');
+    subMenuButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const subMenuCollapse = button.parentElement.nextElementSibling;
+        button.setAttribute('aria-expanded', button.getAttribute('aria-expanded') === 'false' ? 'true' : 'false');
+        subMenuCollapse.classList.toggle('hidden');
+      });
+    });
+
+    // Set all subMenu items to collapsed state by default
+    document.querySelectorAll('.subMenu-collapse').forEach(collapse => {
+      collapse.classList.add('hidden');
+    });
+  }
+  </script>
+
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  
+
+
+
+</body>
+</html>

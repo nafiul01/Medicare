@@ -56,7 +56,7 @@
         
         <div class="flex flex-col items-center sm:items-start justify-start py-10 sm:py-0 sm:justify-center gap-3 h-full">
 
-          <h1 class="text-[2rem] xl:text-[3rem] font-SLNormal max-w-xl text-center sm:text-left -ml-1 z-20 text-white">পোস্ট</h1>
+          <h1 class="text-[2rem] xl:text-[3rem] font-SLNormal max-w-xl text-center sm:text-left -ml-1 z-20 text-white">পোস্টের বিবরণ</h1>
         </div>
 
         <div class="text-white flex flex-col md:flex-row gap-5 md:w-full font-Montserrat scale-50 md:scale-75 xl:scale-100 -mt-10 md:mt-0">
@@ -90,102 +90,139 @@
     <img src="img/about-banner-after.jpg" alt="">
 
 
-    <section class="custom-container pt-5 md:pt-20 pb-20 font-SLNormal flex flex-col md:flex-row md:items-center gap-10 md:gap-16">
-      <div>
-        <img src="img/post-image.jpg" alt="">
-        <img src="img/post-image-bottom.png" alt="">
-      </div>
-      <div>
-        <p class="text-secondaryColor text-3xl font-bold pb-5 pt-1 max-w-lg leading-10">আরে, আমি অ্যান্ড্রু হোয়াইট এবং আমার ব্লগে স্বাগতম</p>
+    <section class="custom-container pt-5 md:pt-20 pb-20 font-SLNormal">
+      <p class="text-2xl max-w-xl font-bold leading-8">কম খরচে যে কোনো ডায়াগনস্টিক সেন্টার, ক্লিনিক ও হাসপাতালের যাবতীয় ডায়াগনস্টিক </p>  
 
-        <p class="text-tColor2 mt-5 leading-8 max-w-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus.</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 py-10 gap-20">
+
+        <div class="md:col-span-1 xl:col-span-2">
+          <div class="bg-[url('img/single-post.jpg')] bg-cover aspect-video w-full"></div>
+          <p class="mt-5 text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Quisque placerat scelerisque tortor ornare ornare Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Quisque placerat scelerisque tortor ornare ornare Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Quisque placerat scelerisque tortor ornare ornare Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Quisque placerat scelerisque tortor ornare ornare Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Quisque placerat scelerisque tortor ornare ornare Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Quisque placerat scelerisque tortor ornare ornare Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim et.</p>
+          <div class="flex items-center justify-between mt-10">
+            <button class="bg-secondaryColor text-white rounded-full px-5 py-2"><i class="fas fa-arrow-left mr-3"></i>Preivous Article</button>
+            <button class="bg-primaryColor text-white rounded-full px-5 py-2">Next Article<i class="fas fa-arrow-right ml-3"></i></button>
+          </div>
+        </div>
+
+        <div class="col-span-1 grid gap-5 content-start">
+
+          <div class="relative">
+            <input class="bg-primaryColor w-full px-5 py-3 rounded-xl text-white placeholder-white focus:outline-none" type="text" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass text-white text-xl absolute top-3 right-5 z-10"></i>
+          </div>
+
+          <div class="border-2 rounded p-5">
+            <p class="font-bold text-2xl">সাম্প্রতিক পোস্ট</p>
+
+            <div class="grid gap-2 mt-5">
+
+              <a href="#" class="flex items-center gap-2">
+
+                <div class="bg-[url('img/single-p-1.jpg')] bg-cover aspect-square h-16"></div>
+                <div>
+                  <p class="text-secondaryColor">Monday 05, September 2021</p>
+                  <p class="font-bold">This Article’s Title goes Here, 
+                    but not too long.</p>
+                </div>
+
+              </a>
+
+              <a href="#" class="flex items-center gap-2">
+
+                <div class="bg-[url('img/single-p-2.jpg')] bg-cover aspect-square h-16"></div>
+                <div>
+                  <p class="text-secondaryColor">Monday 05, September 2021</p>
+                  <p class="font-bold">This Article’s Title goes Here, 
+                    but not too long.</p>
+                </div>
+
+              </a>
+
+              <a href="#" class="flex items-center gap-2">
+
+                <div class="bg-[url('img/single-p-3.jpg')] bg-cover aspect-square h-16"></div>
+                <div>
+                  <p class="text-secondaryColor">Monday 05, September 2021</p>
+                  <p class="font-bold">This Article’s Title goes Here, 
+                    but not too long.</p>
+                </div>
+
+              </a>
+
+              <a href="#" class="flex items-center gap-2">
+
+                <div class="bg-[url('img/single-p-4.jpg')] bg-cover aspect-square h-16"></div>
+                <div>
+                  <p class="text-secondaryColor">Monday 05, September 2021</p>
+                  <p class="font-bold">This Article’s Title goes Here, 
+                    but not too long.</p>
+                </div>
+
+              </a>
+
+              <a href="#" class="flex items-center gap-2">
+
+                <div class="bg-[url('img/single-p-5.jpg')] bg-cover aspect-square h-16"></div>
+                <div>
+                  <p class="text-secondaryColor">Monday 05, September 2021</p>
+                  <p class="font-bold">This Article’s Title goes Here, 
+                    but not too long.</p>
+                </div>
+
+              </a>
+
+              <a href="#" class="flex items-center gap-2">
+
+                <div class="bg-[url('img/single-p-6.jpg')] bg-cover aspect-square h-16"></div>
+                <div>
+                  <p class="text-secondaryColor">Monday 05, September 2021</p>
+                  <p class="font-bold">This Article’s Title goes Here, 
+                    but not too long.</p>
+                </div>
+
+              </a>
+
+            </div>
+
+
+
+          </div>
+
+          <div class="border-2 rounded p-5">
+            <p class="font-bold text-2xl">বিভাগ</p>
+
+            <div class="grid mt-5">
+
+              <a class="flex justify-between items-center px-5 py-3 hover:border-2 rounded" href="#">
+                <p class="text-xl">Surgery</p>
+                <p class="px-3 py-1 bg-secondaryColor text-white rounded-full">3</p>
+              </a>
+
+              <a class="flex justify-between items-center px-5 py-3 hover:border-2 rounded" href="#">
+                <p class="text-xl">Health Care</p>
+                <p class="px-3 py-1 bg-secondaryColor text-white rounded-full">5</p>
+              </a>
+
+              <a class="flex justify-between items-center px-5 py-3 hover:border-2 rounded" href="#">
+                <p class="text-xl">Medical</p>
+                <p class="px-3 py-1 bg-secondaryColor text-white rounded-full">8</p>
+              </a>
+
+              <a class="flex justify-between items-center px-5 py-3 hover:border-2 rounded" href="#">
+                <p class="text-xl">Professional</p>
+                <p class="px-3 py-1 bg-secondaryColor text-white rounded-full">10</p>
+              </a>
+
+            </div>
+          </div>
+
+        </div>
+          
+
       </div>
+
     </section>
 
-    <section class="custom-container md:pt-20 pb-20 font-SLNormal">
-      <p class="text-primaryColor">অ্যাপেই পাবেন সব সমাধান</p>
-      <p class="text-secondaryColor text-3xl font-bold pb-5 pt-3">বৈশিষ্ট্যযুক্ত পোস্ট</p>
-
-      <div class="grid gap-20 mt-5">
-
-        <a class="grid grid-cols-1 xl:grid-cols-3 gap-10 md:gap-40" href="post.html">
-          <div class="h-80 w-96 bg-[url('img/blog-image.jpg')] bg-cover col-span-1"></div>
-          <div class="grid gap-6 col-span-2">
-            <p><span>By Medicare</span> | <span>May 2, 2023</span></p>
-            <p class="text-3xl">কম খরচে যে কোনো ডায়াগনস্টিক সেন্টার, ক্লিনিক ও হাসপাতালের যাবতীয় ডায়াগনস্টিক </p>
-            <p class="text-tColor2 max-w-2xl leading-8">২৪ ঘন্টা কল সেন্টারের মাধ্যমে ডাক্তার সার্ভিস প্রদান।  ১০% কম খরচে যে কোনো ডায়াগনস্টিক সেন্টার, ক্লিনিক ও হাসপাতালের যাবতীয় ডায়াগনস্টিক প্যাথলজি পরীক্ষা করা।</p>
-            <button class="primary-btn w-fit">আরও জানুন</button>
-          </div>
-        </a>
-
-        <a class="grid grid-cols-1 xl:grid-cols-3 gap-10 md:gap-40" href="post.html">
-          <div class="h-80 w-96 bg-[url('img/blog-image.jpg')] bg-cover col-span-1"></div>
-          <div class="grid gap-6 col-span-2">
-            <p><span>By Medicare</span> | <span>May 2, 2023</span></p>
-            <p class="text-3xl">কম খরচে যে কোনো ডায়াগনস্টিক সেন্টার, ক্লিনিক ও হাসপাতালের যাবতীয় ডায়াগনস্টিক </p>
-            <p class="text-tColor2 max-w-2xl leading-8">২৪ ঘন্টা কল সেন্টারের মাধ্যমে ডাক্তার সার্ভিস প্রদান।  ১০% কম খরচে যে কোনো ডায়াগনস্টিক সেন্টার, ক্লিনিক ও হাসপাতালের যাবতীয় ডায়াগনস্টিক প্যাথলজি পরীক্ষা করা।</p>
-            <button class="primary-btn w-fit">আরও জানুন</button>
-          </div>
-        </a>
-
-        <a class="grid grid-cols-1 xl:grid-cols-3 gap-10 md:gap-40" href="post.html">
-          <div class="h-80 w-96 bg-[url('img/blog-image.jpg')] bg-cover col-span-1"></div>
-          <div class="grid gap-6 col-span-2">
-            <p><span>By Medicare</span> | <span>May 2, 2023</span></p>
-            <p class="text-3xl">কম খরচে যে কোনো ডায়াগনস্টিক সেন্টার, ক্লিনিক ও হাসপাতালের যাবতীয় ডায়াগনস্টিক </p>
-            <p class="text-tColor2 max-w-2xl leading-8">২৪ ঘন্টা কল সেন্টারের মাধ্যমে ডাক্তার সার্ভিস প্রদান।  ১০% কম খরচে যে কোনো ডায়াগনস্টিক সেন্টার, ক্লিনিক ও হাসপাতালের যাবতীয় ডায়াগনস্টিক প্যাথলজি পরীক্ষা করা।</p>
-            <button class="primary-btn w-fit">আরও জানুন</button>
-          </div>
-        </d>
-
-        <a class="grid grid-cols-1 xl:grid-cols-3 gap-10 md:gap-40" href="post.html">
-          <div class="h-80 w-96 bg-[url('img/blog-image.jpg')] bg-cover col-span-1"></div>
-          <div class="grid gap-6 col-span-2">
-            <p><span>By Medicare</span> | <span>May 2, 2023</span></p>
-            <p class="text-3xl">কম খরচে যে কোনো ডায়াগনস্টিক সেন্টার, ক্লিনিক ও হাসপাতালের যাবতীয় ডায়াগনস্টিক </p>
-            <p class="text-tColor2 max-w-2xl leading-8">২৪ ঘন্টা কল সেন্টারের মাধ্যমে ডাক্তার সার্ভিস প্রদান।  ১০% কম খরচে যে কোনো ডায়াগনস্টিক সেন্টার, ক্লিনিক ও হাসপাতালের যাবতীয় ডায়াগনস্টিক প্যাথলজি পরীক্ষা করা।</p>
-            <button class="primary-btn w-fit">আরও জানুন</button>
-          </div>
-        </a>
-
-
-      </div>
-
-    </section>
-
-    <section class="custom-container pb-20 text-center font-SLNormal flex flex-col justify-center gap-1">
-      <p class="text-primaryColor">সংবাদবাহী</p>
-      <p class="text-secondaryColor text-3xl font-bold pb-5 pt-1">আমাদের সাথে যোগ দাও</p>
-      <p class="text-tColor2 leading-8 max-w-xl mx-auto"> ১০% কম খরচে যে কোনো ডায়াগনস্টিক সেন্টার, ক্লিনিক ও হাসপাতালের যাবতীয় ডায়াগনস্টিক প্যাথলজি পরীক্ষা করা ও হাসপাতালের যাবতীয় ডায়াগনস্টিক প্যাথলজি পরীক্ষা করা।</p>
-
-      <div class="mt-5 flex flex-col md:flex-row items-center gap-10 justify-center">
-
-        <a href="" class="flex items-center gap-3">
-          <div class="h-20 w-20 flex justify-center items-center gap-5">
-            <img src="img/android-alt.svg" alt="">
-            <img src="img/android-line.svg" alt="">
-          </div>
-          <div class="w-[1px] h-16 bg-white mr-2"></div>
-          <div>
-            <span class="font-semibold">Available on the</span><br>
-            <span class="font-bold">PLAY STORE</span>
-          </div>
-        </a>
-
-        <a href="" class="flex items-center gap-3 mt-2">
-          <div class="h-20 w-20 flex justify-center items-center gap-5">
-            <img src="img/iphone-alt.svg" alt="">
-            <img src="img/iphone-line.svg" alt="">
-          </div>  
-          <div class="w-[1px] h-16 bg-white mr-2"></div>          
-          <div>
-            <span class="font-semibold">Available on the</span><br>
-            <span class="font-bold">APPLE STORE</span>
-          </div>
-        </a>
-      </div>
-
-    </section>
 
 
 

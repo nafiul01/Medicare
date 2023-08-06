@@ -784,6 +784,18 @@ h6 {
   top: 4rem;
 }
 
+.right-5 {
+  right: 1.25rem;
+}
+
+.top-2 {
+  top: 0.5rem;
+}
+
+.top-3 {
+  top: 0.75rem;
+}
+
 .z-20 {
   z-index: 20;
 }
@@ -794,6 +806,10 @@ h6 {
 
 .z-50 {
   z-index: 50;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .col-span-1 {
@@ -875,16 +891,16 @@ h6 {
   margin-top: 1.25rem;
 }
 
-.ml-20 {
-  margin-left: 5rem;
+.ml-3 {
+  margin-left: 0.75rem;
 }
 
-.mr-10 {
-  margin-right: 2.5rem;
+.mr-3 {
+  margin-right: 0.75rem;
 }
 
-.mr-20 {
-  margin-right: 5rem;
+.mb-3 {
+  margin-bottom: 0.75rem;
 }
 
 .block {
@@ -943,6 +959,10 @@ h6 {
   height: 9rem;
 }
 
+.h-80 {
+  height: 20rem;
+}
+
 .h-\[1px\] {
   height: 1px;
 }
@@ -957,18 +977,6 @@ h6 {
 
 .h-full {
   height: 100%;
-}
-
-.h-48 {
-  height: 12rem;
-}
-
-.h-96 {
-  height: 24rem;
-}
-
-.h-80 {
-  height: 20rem;
 }
 
 .max-h-\[450px\] {
@@ -1007,6 +1015,10 @@ h6 {
   width: 12rem;
 }
 
+.w-96 {
+  width: 24rem;
+}
+
 .w-\[1px\] {
   width: 1px;
 }
@@ -1028,8 +1040,8 @@ h6 {
   width: 100%;
 }
 
-.w-96 {
-  width: 24rem;
+.max-w-2xl {
+  max-width: 42rem;
 }
 
 .max-w-\[320px\] {
@@ -1040,20 +1052,16 @@ h6 {
   max-width: 500px;
 }
 
+.max-w-lg {
+  max-width: 32rem;
+}
+
 .max-w-xl {
   max-width: 36rem;
 }
 
-.max-w-3xl {
-  max-width: 48rem;
-}
-
-.max-w-2xl {
-  max-width: 42rem;
-}
-
-.max-w-lg {
-  max-width: 32rem;
+.max-w-\[550px\] {
+  max-width: 550px;
 }
 
 .flex-shrink-0 {
@@ -1084,16 +1092,20 @@ h6 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
 .flex-col {
   flex-direction: column;
 }
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.content-start {
+  align-content: flex-start;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
@@ -1144,28 +1156,16 @@ h6 {
   gap: 1.25rem;
 }
 
+.gap-6 {
+  gap: 1.5rem;
+}
+
 .gap-7 {
   gap: 1.75rem;
 }
 
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-16 {
-  gap: 4rem;
-}
-
-.gap-6 {
-  gap: 1.5rem;
-}
-
-.gap-24 {
-  gap: 6rem;
-}
-
-.gap-40 {
-  gap: 10rem;
 }
 
 .place-self-center {
@@ -1190,6 +1190,14 @@ h6 {
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .border {
@@ -1233,6 +1241,15 @@ h6 {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-secondaryColor {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 62 161 / var(--tw-bg-opacity));
+}
+
+.bg-backgroundColor {
+  background-color: #A6A6A60D;
+}
+
 .bg-\[url\(\'img\/about-banner\.jpg\'\)\] {
   background-image: url('img/about-banner.jpg');
 }
@@ -1243,6 +1260,10 @@ h6 {
 
 .bg-\[url\(\'img\/background\.jpg\'\)\] {
   background-image: url('img/background.jpg');
+}
+
+.bg-\[url\(\'img\/blog-image\.jpg\'\)\] {
+  background-image: url('img/blog-image.jpg');
 }
 
 .bg-\[url\(\'img\/gallery-1\.png\'\)\] {
@@ -1293,8 +1314,32 @@ h6 {
   background-image: url('img/services-background.jpg');
 }
 
-.bg-\[url\(\'img\/blog-image\.jpg\'\)\] {
-  background-image: url('img/blog-image.jpg');
+.bg-\[url\(\'img\/single-post\.jpg\'\)\] {
+  background-image: url('img/single-post.jpg');
+}
+
+.bg-\[url\(\'img\/single-p-1\.jpg\'\)\] {
+  background-image: url('img/single-p-1.jpg');
+}
+
+.bg-\[url\(\'img\/single-p-2\.jpg\'\)\] {
+  background-image: url('img/single-p-2.jpg');
+}
+
+.bg-\[url\(\'img\/single-p-3\.jpg\'\)\] {
+  background-image: url('img/single-p-3.jpg');
+}
+
+.bg-\[url\(\'img\/single-p-4\.jpg\'\)\] {
+  background-image: url('img/single-p-4.jpg');
+}
+
+.bg-\[url\(\'img\/single-p-5\.jpg\'\)\] {
+  background-image: url('img/single-p-5.jpg');
+}
+
+.bg-\[url\(\'img\/single-p-6\.jpg\'\)\] {
+  background-image: url('img/single-p-6.jpg');
 }
 
 .bg-cover {
@@ -1307,6 +1352,10 @@ h6 {
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .px-5 {
@@ -1344,6 +1393,21 @@ h6 {
   padding-bottom: 1.75rem;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .pb-20 {
   padding-bottom: 5rem;
 }
@@ -1368,24 +1432,12 @@ h6 {
   padding-top: 5rem;
 }
 
-.pt-5 {
-  padding-top: 1.25rem;
-}
-
-.pt-2 {
-  padding-top: 0.5rem;
-}
-
 .pt-3 {
   padding-top: 0.75rem;
 }
 
-.pr-20 {
-  padding-right: 5rem;
-}
-
-.pl-20 {
-  padding-left: 5rem;
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .text-center {
@@ -1438,6 +1490,11 @@ h6 {
   line-height: 1rem;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1450,12 +1507,16 @@ h6 {
   font-weight: 600;
 }
 
-.leading-8 {
-  line-height: 2rem;
+.font-black {
+  font-weight: 900;
 }
 
 .leading-10 {
   line-height: 2.5rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
 }
 
 .tracking-wide {
@@ -1497,6 +1558,16 @@ h6 {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.placeholder-white::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-white::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-placeholder-opacity));
+}
+
 .opacity-0 {
   opacity: 0;
 }
@@ -1529,6 +1600,10 @@ h6 {
   src: url('/fonts/solaimanlipi.woff') format('woff');
 }
 
+.hover\:border-2:hover {
+  border-width: 2px;
+}
+
 .hover\:bg-tertiaryColor:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(4 193 231 / var(--tw-bg-opacity));
@@ -1542,6 +1617,11 @@ h6 {
 .hover\:text-gray-900:hover {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.hover\:text-secondaryColor:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 62 161 / var(--tw-text-opacity));
 }
 
 .focus\:border-b-secondaryColor:focus {
@@ -1604,6 +1684,10 @@ h6 {
     grid-column: span 3 / span 3;
   }
 
+  .md\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+
   .md\:my-20 {
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -1655,6 +1739,10 @@ h6 {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1671,16 +1759,16 @@ h6 {
     gap: 2.5rem;
   }
 
+  .md\:gap-16 {
+    gap: 4rem;
+  }
+
   .md\:gap-20 {
     gap: 5rem;
   }
 
   .md\:gap-40 {
     gap: 10rem;
-  }
-
-  .md\:gap-16 {
-    gap: 4rem;
   }
 
   .md\:px-0 {
@@ -1727,6 +1815,10 @@ h6 {
 @media (min-width: 1280px) {
   .xl\:col-span-1 {
     grid-column: span 1 / span 1;
+  }
+
+  .xl\:col-span-2 {
+    grid-column: span 2 / span 2;
   }
 
   .xl\:ml-auto {
