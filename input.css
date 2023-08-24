@@ -89,6 +89,10 @@
         @apply text-secondaryColor py-3 xl:py-5 px-5 xl:px-10 flex items-center gap-2 justify-center fill-secondaryColor font-medium text-sm xl:text-base w-full;
     }
 
+    .tab-home{
+        @apply text-secondaryColor py-3 xl:py-5 px-5 xl:px-10 flex items-center gap-2 justify-center fill-secondaryColor font-medium text-sm xl:text-base;
+    }
+
     .mySwiperMenu>.swiper-wrapper .swiper-slide{
         @apply border-t border-b border-r;
     }
