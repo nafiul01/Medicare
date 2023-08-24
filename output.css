@@ -594,6 +594,7 @@ h6 {
 
 .tab {
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
@@ -618,6 +619,12 @@ h6 {
     font-size: 1rem;
     line-height: 1.5rem;
   }
+}
+
+.mySwiperMenu>.swiper-wrapper .swiper-slide {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-right-width: 1px;
 }
 
 .bloodtab {
@@ -792,6 +799,10 @@ h6 {
   top: 0.75rem;
 }
 
+.top-1\/2 {
+  top: 50%;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -814,10 +825,6 @@ h6 {
 
 .col-span-2 {
   grid-column: span 2 / span 2;
-}
-
-.col-span-3 {
-  grid-column: span 3 / span 3;
 }
 
 .mx-auto {
@@ -863,6 +870,10 @@ h6 {
   margin-bottom: 1.25rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .ml-3 {
   margin-left: 0.75rem;
 }
@@ -899,16 +910,12 @@ h6 {
   margin-top: 1.25rem;
 }
 
-.mb-7 {
-  margin-bottom: 1.75rem;
+.-mr-10 {
+  margin-right: -2.5rem;
 }
 
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
+.-ml-10 {
+  margin-left: -2.5rem;
 }
 
 .block {
@@ -1027,6 +1034,10 @@ h6 {
   width: 24rem;
 }
 
+.w-\[150px\] {
+  width: 150px;
+}
+
 .w-\[1px\] {
   width: 1px;
 }
@@ -1046,14 +1057,6 @@ h6 {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[100px\] {
-  width: 100px;
-}
-
-.w-\[150px\] {
-  width: 150px;
 }
 
 .max-w-2xl {
@@ -1180,10 +1183,6 @@ h6 {
   gap: 2rem;
 }
 
-.gap-y-36 {
-  row-gap: 9rem;
-}
-
 .place-self-center {
   place-self: center;
 }
@@ -1228,24 +1227,14 @@ h6 {
   border-bottom-width: 2px;
 }
 
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
-.border-gray-400 {
-  --tw-border-opacity: 1;
-  border-color: rgb(156 163 175 / var(--tw-border-opacity));
-}
-
-.border-gray-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(107 114 128 / var(--tw-border-opacity));
-}
-
 .border-gray-700 {
   --tw-border-opacity: 1;
   border-color: rgb(55 65 81 / var(--tw-border-opacity));
+}
+
+.bg-\[\#00122F\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 18 47 / var(--tw-bg-opacity));
 }
 
 .bg-backgroundColor {
@@ -1267,19 +1256,9 @@ h6 {
   background-color: rgb(0 62 161 / var(--tw-bg-opacity));
 }
 
-.bg-slate-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#00122F\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 18 47 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'img\/about-banner\.jpg\'\)\] {
@@ -1436,6 +1415,10 @@ h6 {
   padding-bottom: 2rem;
 }
 
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
 .pb-20 {
   padding-bottom: 5rem;
 }
@@ -1468,10 +1451,6 @@ h6 {
   padding-top: 1.25rem;
 }
 
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -1500,11 +1479,6 @@ h6 {
 
 .text-\[2rem\] {
   font-size: 2rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 .text-lg {
@@ -1725,10 +1699,6 @@ h6 {
     margin-top: 0px;
   }
 
-  .md\:mt-20 {
-    margin-top: 5rem;
-  }
-
   .md\:block {
     display: block;
   }
@@ -1773,10 +1743,6 @@ h6 {
 
   .md\:items-center {
     align-items: center;
-  }
-
-  .md\:gap-0 {
-    gap: 0px;
   }
 
   .md\:gap-10 {
