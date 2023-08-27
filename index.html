@@ -453,10 +453,11 @@
     </section>
 
     <!-- Call to Action -->
-    <div class="mySwiperRecent">
+    <section class="mySwiperRecent relative">
+
       <div class="swiper-wrapper">
 
-        <section class="bg-[url('img/medicine-background.jpg')] bg-cover py-10 swiper-slide">
+        <div class="bg-[url('img/medicine-background.jpg')] bg-cover py-10 swiper-slide">
           <div class="custom-container grid md:grid-cols-5 xl:grid-cols-4 md:h-[450px]">
 
             <div class="col-span-1 md:col-span-3">
@@ -469,7 +470,7 @@
                   <img src="img/playstore.png" alt="">
                 </a>
       
-                <a href="" class="flex items-center gap-3 mt-2">
+                <a href="" class="flex items-center gap-3">
                   <img src="img/applestore.png" alt="">
                 </a>
               </div>
@@ -481,9 +482,9 @@
             </div>
 
           </div>
-        </section>
+        </div>
 
-        <section class="bg-[url('img/medicine-background.jpg')] bg-cover py-10 swiper-slide">
+        <div class="bg-[url('img/medicine-background.jpg')] bg-cover py-10 swiper-slide">
           <div class="custom-container grid md:grid-cols-5 xl:grid-cols-4 md:h-[450px]">
 
             <div class="col-span-1 md:col-span-3">
@@ -496,7 +497,7 @@
                   <img src="img/playstore.png" alt="">
                 </a>
       
-                <a href="" class="flex items-center gap-3 mt-2">
+                <a href="" class="flex items-center gap-3">
                   <img src="img/applestore.png" alt="">
                 </a>
               </div>
@@ -508,9 +509,9 @@
             </div>
 
           </div>
-        </section>
+        </div>
 
-        <section class="bg-[url('img/medicine-background.jpg')] bg-cover py-10 swiper-slide">
+        <div class="bg-[url('img/medicine-background.jpg')] bg-cover py-10 swiper-slide">
           <div class="custom-container grid md:grid-cols-5 xl:grid-cols-4 md:h-[450px]">
 
             <div class="col-span-1 md:col-span-3">
@@ -523,34 +524,7 @@
                   <img src="img/playstore.png" alt="">
                 </a>
       
-                <a href="" class="flex items-center gap-3 mt-2">
-                  <img src="img/applestore.png" alt="">
-                </a>
-              </div>
-              
-            </div>
-            
-            <div class="col-span-1 md:col-span-2 xl:col-span-1 max-h-[450px]">
-              <img class="h-full w-auto" src="img/phone.png" alt="">
-            </div>
-
-          </div>
-        </section>
-
-        <section class="bg-[url('img/medicine-background.jpg')] bg-cover py-10 swiper-slide">
-          <div class="custom-container grid md:grid-cols-5 xl:grid-cols-4 md:h-[450px]">
-
-            <div class="col-span-1 md:col-span-3">
-              <p class="text-xl md:text-2xl xl:text-3xl text-primaryColor font-bold mt-10">আপনার আঙ্গুলের ডগায় আপনার ডাক্তার খুঁজুন</p>
-              <p class="text-white text-2xl md:text-4xl xl:text-5xl mt-5">আমাদের মোবাইল অ্যাপস এখন উপলব্ধ</p>
-
-              <div class="text-white flex flex-col md:flex-row gap-5 md:gap-10 my-10 md:my-20">
-
                 <a href="" class="flex items-center gap-3">
-                  <img src="img/playstore.png" alt="">
-                </a>
-      
-                <a href="" class="flex items-center gap-3 mt-2">
                   <img src="img/applestore.png" alt="">
                 </a>
               </div>
@@ -562,13 +536,18 @@
             </div>
 
           </div>
-        </section>
+        </div>
 
 
-    </div>
 
+      </div>
+
+      <div class="absolute w-full max-w-[1400px] left-1/2 top-1/2 -translate-x-1/2 z-10">
+        <div class="swiper-button-next scale-50"></div>
+        <div class="swiper-button-prev scale-50"></div>
+      </div>
     
-    </div>
+    </section>
 
 
     <!-- আমাদের ডাক্তার -->
@@ -817,6 +796,10 @@
     pagination: {
         el: ".swiper-pagination",
       },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
     });
   </script>
 
